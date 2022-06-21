@@ -1,0 +1,32 @@
+package poo;
+
+public class Coche {
+	
+	private int ruedas, largo, ancho, motor, peso_plataforma, peso_total;
+	
+	String color;
+	
+	boolean asientos_cuero, climatizador;
+	
+	
+	public Coche() {
+		
+		ruedas = 4;
+		
+		largo = 2000;
+		
+		motor = 1600;
+		
+		peso = 500;
+		
+	}
+	
+	public int getRuedas() {
+		return ruedas;
+	}
+	
+	public void setRuedas(int ruedas) {
+		this.ruedas = ruedas;
+	}
+
+}

@@ -1,0 +1,15 @@
+package poo;
+
+public class Furgoneta extends Coche {
+
+	private int capacidad_extra;
+	
+	private int plazas_extra;
+	
+	public Furgoneta(int plazas_extra, int capacidad_carga) {
+		
+		super(); //llama al constructor de la clase padre
+		
+	}
+	
+}

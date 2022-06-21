@@ -1,0 +1,31 @@
+package poo;
+
+public class Uso_Coche {
+
+	public static void main(String[] args) {
+		
+//		Coche Renault = new Coche();	
+//		System.out.println("Este coche tiene " + Renault.getRuedas() + " ruedas.");
+//				
+		Coche miCoche = new Coche();
+		
+		miCoche.setColor("amarillo");
+		
+		System.out.println("El color del coche es " + miCoche.getColor());
+		
+		System.out.println(miCoche.getDimeDatosGenerales());
+		
+		miCoche.setConfigura_asientos_cuero("si");
+		
+		System.out.println(miCoche.getDimeAsientos());
+		
+		miCoche.setClimatizador("si");
+		
+		System.out.println(miCoche.getDimeClimatizador());
+		
+		System.out.println(miCoche.setgetdime_peso_coche());
+		
+		System.out.println("El precio final del coche es: " + miCoche.getPrecio_coche());
+	}
+
+}

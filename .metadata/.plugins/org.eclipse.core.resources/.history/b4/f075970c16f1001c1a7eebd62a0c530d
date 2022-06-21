@@ -1,0 +1,9 @@
+package poo;
+
+public class Furgoneta extends Coche {
+
+	private int capacidad_extra;
+	
+	private int plazas_extra;
+	
+}

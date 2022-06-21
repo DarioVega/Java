@@ -1,0 +1,23 @@
+package poo;
+
+public class Uso_Coche {
+
+	public static void main(String[] args) {
+		
+//		Coche Renault = new Coche();	
+//		System.out.println("Este coche tiene " + Renault.getRuedas() + " ruedas.");
+//				
+		Coche miCoche = new Coche();
+		
+		miCoche.setColor("amarillo");
+		
+		System.out.println("El color del coche es " + miCoche.getColor());
+		
+		System.out.println(miCoche.getDimeDatosGenerales());
+		
+		miCoche.setConfigura_asientos_cuero("si");
+		
+		System.out.println(miCoche.getDimeAsientos());
+	}
+
+}

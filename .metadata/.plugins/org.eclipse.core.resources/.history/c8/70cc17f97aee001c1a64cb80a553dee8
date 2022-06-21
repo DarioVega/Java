@@ -1,0 +1,16 @@
+import java.util.*;
+
+import javax.*;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		
+//		String nombre = JOptionPane.showInputDialog("Ingresa tu nombre:");
+		Scanner sc = new Scanner(System.in);
+		String nombre = sc.nextLine();
+		System.out.println("Hola " + nombre);
+
+	}
+
+}
